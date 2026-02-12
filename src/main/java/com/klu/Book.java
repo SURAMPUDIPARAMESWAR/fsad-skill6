@@ -7,10 +7,10 @@ public class Book {
     private String author;
     private double price;
 
-    // Default constructor
+    
     public Book() {}
 
-    // Parameterized constructor
+    
     public Book(int id, String title, String author, double price) {
         this.id = id;
         this.title = title;
@@ -18,7 +18,7 @@ public class Book {
         this.price = price;
     }
 
-    // Getters and Setters
+    
     public int getId() {
         return id;
     }
